@@ -39,5 +39,5 @@ jobs:
 
     - name: Update ECS service
       run: |
-        aws ecs update-service --cluster awsconnectitcluster --service service-api --task-definition my-task
+        aws ecs update-service --cluster manil-munjal-cluster --service service-api --task-definition manil-munjal-cluster-task
 
